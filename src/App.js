@@ -7,7 +7,7 @@ import Menu from './Components/Menu';
 
 function App() {
 
-  const [menuItems, setMenuItems] = useState(items)
+  const menuItems = useState(items)[0];
   
  
   return (
